@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="flexbox.css">
+        <title>PGCript clone</title>
+    </head>
+
+    <body>
+        <div class="main-container">
+            <nav>
+                <h1>PGCript</h1>
+            </nav>
+        
+            <h2>Generate personalized and random passwords!</h2>
+
+            <div class="content-box">
+                <p>
+                    PGCrypt uses information you provide to generate strong passwords. To create more memorable passwords answer the following questions.
+                </p>
+
+                <hr>
+
+                <div id="flexbox1">
+                    <div>
+                        <div for="question1">
+                            Where did your parents meet?
+                            <br>
+                            <span>2 words</span>
+                            </div>
+                        <input type="text" name="" id="question1" placeholder="Oslo, Norway">
+                    </div>
+
+                    <div>
+                        <div for="question2">
+                            What is your favourite football team?
+                            
+                            <br>
+                            
+                            <span>2 words</span> 
+                        </div>
+                        <input type="text" name="" id="question2" placeholder="Labe">
+                    </div>
+
+                    <div>
+                        <div for="question3">
+                            What is the name of your first pet?
+                            
+                            <br>
+                            
+                            <span>2 words</span>
+                        </div>
+                        <input type="text" name="" id="question3" placeholder="Chief">
+                    </div>
+                </div>
+
+                <select name="" id="modify-password">
+                    <option value="hide">Modify password options</option>
+                    <option value="Uppercase (A-Z)">Uppercase (A-Z)</option>
+                    <option value="Uppercase (A-Z)">Lowercase (a-z)</option> 
+                    <option value="Uppercase (A-Z)">Numbers (0-9)</option>
+                    <option value="Uppercase (A-Z)">Symbols</option>
+                </select>
+
+                <div class="button-to-copy">
+                    <div>
+
+                        <button class="btn" id="btn1">First password</button>
+                    </div>
+                        <div>
+
+                            <button class="btn" id="btn2">Second password</button>
+                        </div>
+                        <div>
+
+                            <button class="btn" id="btn3">Third password</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h6>Click to copy</h6>
+                    <button id="generate-password">Generate password</button>
+                </div>
+            </div>
+
+        </div>
+    
+        <script src="index.js"></script>
+    </body>
+</html>

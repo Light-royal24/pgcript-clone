@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 37, 37);
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.main-container {
+    padding: 0 60px ;
+    margin: 0 40px;
+    box-sizing: border-box;
+}
+nav {
+    margin: 15px 20px 20px 0;
+    font-family: sans-serif;
+    font-weight: light;
+} 
+
+h2 {
+    color: blue;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+}
+
+
+p {
+    font-size: large;
+    padding: 10px 0 20px 0;
+    font-weight: lighter;
+}
+ 
+ hr{
+    margin: 10px 0 20px 0;
+    opacity: 0.3;
+    color: gray;
+}
+
+label {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+#flexbox1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flexbox1>div {
+    flex-grow: 1;
+    padding: 10px;
+    min-width: 275px;
+    margin-bottom: 10px;
+}
+
+ span {
+    font-size: 0.7em;
+    opacity: 0.7em;
+    font-weight: lighter;
+    color: gray;
+ }
+
+ input[type = text] {
+    height: 40px;
+    outline: none;
+    background-color: #fff;
+    color: grey;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 0 0 15px;
+    font-size: 1em;
+    margin-top: 5px;
+ }
+
+ select {
+    width: 100%;
+    margin: 0 10px 10px 10px;
+    height: 50px;
+    background-color: #fff;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    border-radius: 5px;
+    max-width: 99%;
+ }
+ option[value = hide] {
+    display: none;
+ }
+  option {
+ display: flex;
+ 
+}
+ 
+
+#generate-password {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(20, 124, 243);
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0 0 10px 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#generate-password:hover {
+   background-color: rgb(16, 99, 201);
+   transition: all 1s ease;
+}
+
+#generate-password:active {
+    background-color: rgb(13, 88, 180);
+}
+
+.btn {
+    width: 100%;
+    border: 0.5px solid grey;
+    height: 40px;
+    color: white;
+    font-size: 1em;  
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(59, 55, 55);
+    transition: all 1s ease;
+}
+
+h6 {
+    font-size: 0.7em;
+    opacity: 0.7em;
+    font-weight: lighter;
+    color: gray; 
+    margin: 5px 0 10px 15px;
+}
+
+.button-to-copy{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 10px 10px;
+}
+
+.button-to-copy>div {
+   flex-grow: 1;
+   min-width: 275px;
+    margin: 5px ;
+}
